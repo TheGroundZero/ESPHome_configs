@@ -1,0 +1,9 @@
+---
+# ESP 32
+# https://docs.platformio.org/en/latest/boards/espressif32/esp32doit-devkit-v1.html
+# https://www.aliexpress.com/item/1005001267643044.html
+#
+esphome:
+  <<: !include .esphome.yaml
+  platform: ESP32
+  board: esp32doit-devkit-v1

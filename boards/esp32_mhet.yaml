@@ -1,0 +1,9 @@
+---
+# ESP 32
+# https://docs.platformio.org/en/latest/boards/espressif32/mhetesp32devkit.html
+# https://www.aliexpress.com/item/32815673672.html
+#
+esphome:
+  <<: !include .esphome.yaml
+  platform: ESP32
+  board: mhetesp32devkit

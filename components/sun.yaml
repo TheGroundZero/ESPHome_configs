@@ -1,0 +1,14 @@
+---
+# Sun
+#
+# The sun component allows you to track the sun’s position in the sky.
+#
+# https://esphome.io/components/sun.html
+#
+substitutions:
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+
+sun:
+  latitude: "${latitude}"
+  longitude: "${longitude}"

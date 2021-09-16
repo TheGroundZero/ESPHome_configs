@@ -1,0 +1,8 @@
+---
+# Camera flash
+# To be used with ESP32 CAM boards
+#
+platform: gpio
+name: "${camera_name} flash"
+pin: 4
+#inverted: True

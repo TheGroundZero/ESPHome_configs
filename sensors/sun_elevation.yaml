@@ -1,0 +1,11 @@
+---
+# Sun
+#
+# The sun component allows you to track the sun’s position in the sky.
+#
+# https://esphome.io/components/sun.html
+#
+platform: sun
+type: elevation
+name: "Sun Elevation"
+id: "sun_elevation"

@@ -1,0 +1,10 @@
+---
+# SPI Bus
+#
+# This component sets up the SPI bus for the ESP32.
+#
+# https://esphome.io/components/spi.html
+#
+spi:
+  clk_pin: 18
+  mosi_pin: 23

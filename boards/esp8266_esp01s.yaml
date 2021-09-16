@@ -1,0 +1,8 @@
+---
+# ESP8266 ESP-01S
+# https://s.click.aliexpress.com/e/_A5x9cl
+#
+esphome:
+  <<: !include .esphome.yaml
+  platform: ESP8266
+  board: esp01_1m

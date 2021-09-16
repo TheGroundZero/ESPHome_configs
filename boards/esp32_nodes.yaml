@@ -1,0 +1,9 @@
+---
+# ESP 32
+# https://docs.platformio.org/en/latest/boards/espressif32/node32s.html
+# https://www.aliexpress.com/item/32807887667.html
+#
+esphome:
+  <<: !include .esphome.yaml
+  platform: ESP32
+  board: node32s

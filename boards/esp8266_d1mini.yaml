@@ -1,0 +1,7 @@
+---
+# ESP8266 D1 Mini
+#
+esphome:
+  <<: !include .esphome.yaml
+  platform: ESP8266
+  board: d1_mini

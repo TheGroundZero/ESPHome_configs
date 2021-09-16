@@ -1,0 +1,11 @@
+---
+# UART Bus
+#
+# This component sets up the UART bus for the ESP32.
+#
+# https://esphome.io/components/uart.html
+#
+uart:
+  rx_pin: GPIO16
+  tx_pin: GPIO17
+  baud_rate: 9600

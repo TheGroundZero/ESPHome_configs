@@ -1,0 +1,8 @@
+---
+# ESP 32
+# https://docs.platformio.org/en/latest/boards/espressif32/esp-wrover-kit.html
+#
+esphome:
+  <<: !include .esphome.yaml
+  platform: ESP32
+  board: esp-wrover-kit
